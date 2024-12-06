@@ -1,9 +1,136 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="nH-KQN0EQKEcP5MQT_Ni">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_MleX_J6byx4GUHRaYKY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-2" target="_MleX_J6byx4GUHRaYKY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-12" value="发送&lt;div&gt;分析诉求&lt;div&gt;原始数据&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-10">
+          <mxGeometry x="-0.1426" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-2" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-6" value="数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-7" target="_MleX_J6byx4GUHRaYKY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="150" />
+              <mxPoint x="290" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-15" value="解析出对应的图表数据和分析结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-14">
+          <mxGeometry x="0.0054" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-7" value="AI服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-9" target="_MleX_J6byx4GUHRaYKY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;后端" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-9" target="_MleX_J6byx4GUHRaYKY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-17" value="存储数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-16">
+          <mxGeometry x="0.2544" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-18" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;处理用户数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-21" target="_MleX_J6byx4GUHRaYKY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-20" value="1、发送&lt;div&gt;分析诉求&lt;div&gt;原始数据&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-19">
+          <mxGeometry x="-0.1426" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-21" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-22" value="数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="990" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-25" target="_MleX_J6byx4GUHRaYKY-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="670" />
+              <mxPoint x="300" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-24" value="6、解析出对应的图表数据和分析结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-23">
+          <mxGeometry x="0.0054" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-25" value="AI服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-27" target="_MleX_J6byx4GUHRaYKY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-38" value="3、存入队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-36">
+          <mxGeometry x="0.6527" y="2" relative="1" as="geometry">
+            <mxPoint x="-11" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;后端" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-27" target="_MleX_J6byx4GUHRaYKY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-29" value="7、存储数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-28">
+          <mxGeometry x="0.2544" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-30" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;2、处理用户数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-31" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-32" value="客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="870" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-33" target="_MleX_J6byx4GUHRaYKY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-39" value="4、一个一个来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-37">
+          <mxGeometry x="0.0148" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-33" value="消息队列" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_MleX_J6byx4GUHRaYKY-34" target="_MleX_J6byx4GUHRaYKY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-40" value="5、如果AI服务有空闲，&lt;div&gt;就可以进行处理&lt;div&gt;反之，就等待处理&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_MleX_J6byx4GUHRaYKY-35">
+          <mxGeometry x="-0.1139" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_MleX_J6byx4GUHRaYKY-34" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;任务处理模块&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
